@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ①課題番号-プロダクト名
+TodoAPP
 
-## Getting Started
+## ②課題内容（どんな作品か）
+Next.jsを用いたTodoアプリ
 
-First, run the development server:
+## ③DEMO
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+デプロイしていない
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+なし
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## ⑤工夫した点・こだわった点
+- 消しゴムで画像が消えないようレイヤーを分けたところ
+- 画面サイズによってキャンバスサイズが調整されるところ
+- スマホ対応（指で絵が描ける）にしたところ
+- ２つのキャンバスを統合して一つの画像になるようにしたところ
+- サムネイルが出るようにしたところ
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⑥難しかった点・次回トライしたいこと(又は機能)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- 難しかった点
+  - mongoDBからの連携で取得したidの型がどうしてもunknownになってしまい、うまく行かなかった。仕方がないので、今回は受け取る側の型でunknownを許容させる処置をとった。
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## ⑦質問・疑問・感想、シェアしたいこと等なんでも
